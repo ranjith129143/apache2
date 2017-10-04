@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 MAINTAINER ranjith129	"655ranjith@gmail.com"
-RUN apt-get update && apt-get install vim && apt-get install net-tools && apt-get install apache2 && apt-get clean
+RUN apt-get update && apt-get install -y vim && apt-get install -y net-tools && apt-get install -y apache2 
 EXPOSE 80
 
 
